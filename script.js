@@ -96,7 +96,7 @@ sendEmailButton.addEventListener('click', function() {
 
 var sendFeedbackButton = document.getElementById('sendFeedbackButton');
 sendFeedbackButton.addEventListener('click', function() {
-    var feedbackSubject = 'IST feedback';
+    var feedbackSubject = 'Feedback';
     var feedbackBody = 'What should be changed:\n\nIdeas for other exercises:';
     feedbackBody = encodeURIComponent(feedbackBody);
     var feedbackMailtoLink = 'mailto:dinu.topala@katoennatie.com?subject=' + feedbackSubject + '&body=' + feedbackBody;
