@@ -1,4 +1,4 @@
-var ReadKey = ['firstName', 'lastName', 'VideoAnswer', 'option_Save', 'option_NewDoc', 'option_Highlight', 'option_Undo', 'Nr differences', 'MissingNr', 'Score chart', 'Oldest employe', 'MissingLetter', 'SelectedNR', 'WordsPerMinute', 'WordsTyped', 'Accuracy', 'CorrectWords'];
+var ReadKey = ['firstName', 'lastName', 'VideoAnswer', /*'option_Save', 'option_NewDoc', 'option_Highlight', 'option_Undo',*/ 'Nr differences', 'MissingNr', 'Score chart', 'Oldest employe', 'MissingLetter', 'SelectedNR', 'WordsPerMinute', 'WordsTyped', 'Accuracy', 'CorrectWords'];
 var storedData = {};
 ReadKey.forEach(function (key) {
     storedData[key] = localStorage.getItem(key);
